@@ -10,7 +10,7 @@ Object.assign(global, globals);
 
 const render = require("./render");
 
-const port = process.env.PORT || 3210;
+const port = process.env.PORT || 8080;
 const app = express();
 
 app.use(compression());
