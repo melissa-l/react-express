@@ -12,8 +12,6 @@ const obj = {a: 'x', b: 'y', c: 'z'}
 const {a, b, c} = obj`;
 
 const content = markdown(markdownOptions)`
-Destructuring is a convenient way to extract multiple keys from an object or array simultaneously and assign the values to local variables.
-
 ${<EditorTranspiler code={code} title={"Destructuring"} />}
 `;
 

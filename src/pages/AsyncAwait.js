@@ -22,10 +22,6 @@ const printData = async () => {
 printData()`;
 
 const content = markdown(markdownOptions)`
-We can use the \`async\` keyword before a function name to wrap the return value of this function in a \`Promise\`. We can use the \`await\` keyword (in an \`async\` function) to wait for a promise to be resolved or rejected before continuing code execution in this block.
-
-This syntax also propagates exceptions that occur in promises using a \`try\`/\`catch\` block, just as if the code were running synchronously.
-
 ${<EditorConsole code={code} title={"Async and await"} />}
 `;
 

@@ -14,8 +14,6 @@ const style = {
 console.log(style.color)`;
 
 const content = markdown(markdownOptions)`
-In ES5, object literal keys are always interpreted as a string. ES2015 allows us to use computed values as keys in object literals, using square bracket syntax: \`[myKey]\`.
-
 ${<EditorConsole code={code} title={"Dynamic object keys"} />}
 `;
 

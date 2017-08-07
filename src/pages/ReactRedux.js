@@ -107,9 +107,7 @@ const vendorComponents = [
 ];
 
 const content = markdown(markdownOptions)`
-Redux has official bindings for React in a package called [React Redux](http://redux.js.org/docs/basics/UsageWithReact.html).
-
-In the previous examples, we passed the \`store\` object directly into our container component as a prop. We then started listening to changes in \`componentWillMount\` with \`store.subscribe()\`, and we made sure to unsubscribe in \`componentWillUnmount\`. We dispatched actions with \`store.dispatch(action)\`.
+\`缩进\`
 
 There are a few issues with using Redux this way:
 
@@ -140,16 +138,16 @@ Let's take a look at our To-Do List app again, now that it's using React Redux.
 ## Files
 
 - \`index.js\`\\
-This file handles creating the redux store and passing it to our \`Provider\`. The \`Provider\` will let us connect our \`App\` container to the store with \`connect()\`.
+BlockScopedDeclarations.js
 
 - \`todoListRedux.js\`\\
 The same as in the Redux example.
 
 - \`App.js\`\\
-\`App\` is connected to the store using \`connect()\`. It pulls the list data, \`todos\`, out of the store's state using \`mapStateToProps\`. It uses the \`dispatch()\` function added to its props to dispatch actions to modify the store.
+lsls
 
 - \`List.js\`, \`Input.js\`, \`Title.js\`\\
-Presentational components - these are the same as in the Component State example.
+Presentational
 
 ${<WebPlayer files={files} vendorComponents={vendorComponents} />}
 `;

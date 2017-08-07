@@ -25,12 +25,6 @@ printName()
 `;
 
 const content = markdown(markdownOptions)`
-When a function is assigned to a class instance property, that function is bound to the instance.
-
-Before ES2016, you might bind functions to class instances in the \`constructor\`, e.g. \`this.func = this.func.bind(this)\`. Binding here ensures that a class's instance function is invoked with the correct context.
-
-With ES2016 class instance properties, we can instead write \`func = () =>\`. \`func\` is then bound to the class instance at construction.
-
 ${<EditorConsole code={code} title={"Bound instance methods"} />}
 `;
 

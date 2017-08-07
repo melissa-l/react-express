@@ -1,6 +1,6 @@
 # React Express
 
-## Why?
+## 原因?
 
 React has a problem. While the proliferation of JavaScript libraries, frameworks, and tools (JavaScript fatigue) is fantastic for the web development ecosystem, it can be extremely intimidating for beginners to get started.
 
@@ -60,13 +60,13 @@ Proudly presenting, [React Express!](http://www.react.express)
 
 If you'd like to contribute, follow along below to get the repo set up.
 
-## Installation
+## 安装
 
 ```bash
 yarn
 ```
 
-OR
+或者
 
 ```bash
 npm install
